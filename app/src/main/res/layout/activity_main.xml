@@ -8,11 +8,16 @@
     android:background="@drawable/bg_game"
     android:padding="32dp"
     tools:context=".MainActivity">
+
     <ImageView
         android:id="@+id/imageViewDuck"
         android:layout_width="100dp"
         android:layout_height="100dp"
         app:srcCompat="@drawable/duck"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="239dp" />
 
@@ -31,6 +36,7 @@
         android:layout_marginStart="8dp"
         android:fontFamily="@font/pixel"
         android:text="0"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewCounter"
         app:layout_constraintStart_toEndOf="@+id/imageViewCounter"
         app:layout_constraintTop_toTopOf="@+id/imageViewCounter" />
@@ -43,6 +49,7 @@
         android:layout_marginEnd="8dp"
         android:fontFamily="@font/pixel"
         android:text="TextView"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -63,7 +70,19 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/pixel"
         android:text="60s"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- BOTÓN AÑADIDO PARA LA QUINTA PARTE -->
+    <Button
+        android:id="@+id/buttonExport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pixel"
+        android:text="Exportar Historial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
