@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "127859416397",
+    "project_id": "projcazarpatosfernandoaldaz",
+    "storage_bucket": "projcazarpatosfernandoaldaz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127859416397:android:be011297eb14158a14eb04",
+        "android_client_info": {
+          "package_name": "com.aldaz.fernando.duckhunt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA2p-tLqzMLfCdCJgob6Zh2qqqw_Ipw_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
